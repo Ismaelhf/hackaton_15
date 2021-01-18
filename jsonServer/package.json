@@ -1,0 +1,15 @@
+{
+  "name": "jsonserver",
+  "version": "1.0.0",
+  "description": "Json Server API to react native app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --host 192.168.2.123 db.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}
